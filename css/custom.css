@@ -1,3 +1,15 @@
+body {
+  font-weight: 300;
+  font:  1.5em/1.5 "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #222;
+}
+
+* {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 #tit1 {
 	margin-top: 70px;
 	text-align: center;
@@ -92,6 +104,6 @@
 }
 
 .button:hover {
-	border: 1px solid black;
 	font-weight: 1000;
 }
+
